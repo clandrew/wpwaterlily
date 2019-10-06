@@ -1,0 +1,6 @@
+ThumbnailMaker/.vs/*
+ThumbnailMaker/Debug/*
+ThumbnailMaker/Release/*
+ThumbnailMaker/ThumbnailMaker/Debug/*
+*.jpg
+ThumbnailMaker/ThumbnailMaker/Release/*

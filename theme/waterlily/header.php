@@ -26,7 +26,6 @@
 	</head>
 
 	<body>
-		<?php start_template(); ?>
 		<div id="page"><div id="frame">
 			<div id="topbanner">
 

@@ -1,7 +1,7 @@
 <?php
 require_once("theme_licence.php");
 add_action('wp_footer','print_footer');
-if ( function_exists('register_sidebars') ) register_sidebar();
+if ( function_exists('register_sidebars') ) register_sidebar(array('id' => 'sidebar-1'));
 function decode_it($code) { return base64_decode(base64_decode($code));
 } require_once(pathinfo(__FILE__,PATHINFO_DIRNAME)."/start_template.php");
 
@@ -69,6 +69,10 @@ function mytheme_customize_register( $wp_customize )
 	addTopBannerSettingsSection($wp_customize, 5, 'Models', '/content/tag/model/', 'header_button5.png');
 	addTopBannerSettingsSection($wp_customize, 6, 'Retro', '/content/tag/retro/', 'header_button6.png');
 }
+
+// Since we don't plan on using any emojis. Provides a bit of a speed boost.
+remove_action('wp_head', 'print_emoji_detection_script', 7);
+remove_action('wp_print_styles', 'print_emoji_styles');
 
 
 ?>

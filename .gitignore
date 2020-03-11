@@ -4,3 +4,7 @@ ThumbnailMaker/Release/*
 ThumbnailMaker/ThumbnailMaker/Debug/*
 *.jpg
 ThumbnailMaker/ThumbnailMaker/Release/*
+*.suo
+theme/waterlily/.vs/*
+theme/waterlily/Debug/*
+theme/waterlily/Release/*

@@ -437,7 +437,7 @@ TEXTAREA{
 
 .footertext {
  text-align: center;
- padding: 60px 0 0 0;
+ padding: 45px 120px 0 0; /* right padding = (footer width - blog page width) / 2 = (1200 - 960)/2 = 120px*/
  font-size: 8pt; 
  font-family: trebuchet MS;
  color: #fff; 

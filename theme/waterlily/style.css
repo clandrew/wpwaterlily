@@ -61,12 +61,10 @@ code, pre {
  float:left;
  width: 1250px;
 }
-#bannerimagecontainer {
 
- background: none;
- 
- padding-left: 107px;
- 
+#bannerimagecontainer {
+ background: none; 
+ padding-left: 107px; 
  padding-top: 30px;
 }
 
@@ -79,10 +77,16 @@ code, pre {
 }
 
 #bannerimage {
-
- padding-right: 9.5px;
- 
+ padding-right: 9.5px; 
 }
+
+#bannerimage img {
+ border-color: rgba(209, 218, 229, 0.5);
+ 
+ border-width: 2px;
+ border-style: ridge; 
+}
+
 .info {
  text-align: right;
  padding: 0 50px 0 0;

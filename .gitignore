@@ -1,9 +1,9 @@
-ThumbnailMaker/.vs/*
-ThumbnailMaker/Debug/*
-ThumbnailMaker/Release/*
-ThumbnailMaker/ThumbnailMaker/Debug/*
+tools/ThumbnailMaker/.vs/*
+tools/ThumbnailMaker/Debug/*
+tools/ThumbnailMaker/Release/*
+tools/ThumbnailMaker/ThumbnailMaker/Debug/*
 *.jpg
-ThumbnailMaker/ThumbnailMaker/Release/*
+tools/ThumbnailMaker/ThumbnailMaker/Release/*
 *.suo
 theme/waterlily/.vs/*
 theme/waterlily/Debug/*

@@ -51,9 +51,6 @@
     <None Include="single.php">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="start_template.php">
-      <Filter>Source Files</Filter>
-    </None>
     <None Include="style.css">
       <Filter>Source Files</Filter>
     </None>

@@ -5,6 +5,3 @@ tools/ThumbnailMaker/ThumbnailMaker/Debug/*
 *.jpg
 tools/ThumbnailMaker/ThumbnailMaker/Release/*
 *.suo
-theme/waterlily/.vs/*
-theme/waterlily/Debug/*
-theme/waterlily/Release/*

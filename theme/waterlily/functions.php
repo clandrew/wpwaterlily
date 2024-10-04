@@ -70,5 +70,8 @@ function mytheme_customize_register( $wp_customize )
 remove_action('wp_head', 'print_emoji_detection_script', 7);
 remove_action('wp_print_styles', 'print_emoji_styles');
 
+// Stop wordpress from changing consecutive minus signs in post title to a single minus sign
+remove_filter('the_content', 'wptexturize');
+remove_filter('the_title', 'wptexturize');
 
 ?>

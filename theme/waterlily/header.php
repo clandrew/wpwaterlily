@@ -32,39 +32,6 @@
 				<div class="title"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></div>
 				<div class="info"><?php bloginfo('description'); ?></div>
 
-			    <div id="bannerimagecontainer">
-
-					<span id="bannerimage">
-						<a href="<?php echo get_option('top_banner_link_setting1', '/content/tag/pc-games/')?>"><img
-								src="<?php $filename=get_option('top_banner_image_setting1', 'header_button1.png'); echo '/content/wp-content/themes/waterlily/images/' . $filename; ?>"
-								title="<?php echo get_option('top_banner_title_setting1', 'PC Games')?>"/></a>
-					</span>
-					<span id="bannerimage">
-						<a href="<?php echo get_option('top_banner_link_setting2', '/content/tag/windows/')?>"><img
-								src="<?php $filename=get_option('top_banner_image_setting2', 'header_button2.png'); echo '/content/wp-content/themes/waterlily/images/' . $filename; ?>"
-								title="<?php echo get_option('top_banner_title_setting2', 'Windows')?>"/></a>
-					</span>
-					<span id="bannerimage">
-						<a href="<?php echo get_option('top_banner_link_setting3', '/content/tag/console-games/')?>"><img
-								src="<?php $filename=get_option('top_banner_image_setting3', 'header_button3.png'); echo '/content/wp-content/themes/waterlily/images/' . $filename; ?>"
-								title="<?php echo get_option('top_banner_title_setting3', 'Console Games')?>"/></a>
-					</span>
-					<span id="bannerimage">
-						<a href="<?php echo get_option('top_banner_link_setting4', '/content/tag/handheld-games/')?>"><img
-								src="<?php $filename=get_option('top_banner_image_setting4', 'header_button4.png'); echo '/content/wp-content/themes/waterlily/images/' . $filename; ?>"
-								title="<?php echo get_option('top_banner_title_setting4', 'Handheld Games')?>"/></a>
-					</span>
-					<span id="bannerimage">
-						<a href="<?php echo get_option('top_banner_link_setting5', '/content/tag/model/')?>"><img
-								src="<?php $filename=get_option('top_banner_image_setting5', 'header_button5.png'); echo '/content/wp-content/themes/waterlily/images/' . $filename; ?>"
-								title="<?php echo get_option('top_banner_title_setting5', 'Models')?>"/></a>
-					</span>
-					<span id="bannerimage">
-						<a href="<?php echo get_option('top_banner_link_setting6', '/content/tag/retro/')?>"><img
-								src="<?php $filename=get_option('top_banner_image_setting6', 'header_button6.png'); echo '/content/wp-content/themes/waterlily/images/' . $filename; ?>"
-								title="<?php echo get_option('top_banner_title_setting6', 'Retro')?>"/></a>
-					</span>
-			    </div>
 			</div>
 
 			<div class="clearfix">

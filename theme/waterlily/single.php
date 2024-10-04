@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+﻿<?php get_header(); ?>
 <div id="main">
 
 <!-- end header -->
@@ -6,6 +6,8 @@
 
 
 <div class="main_title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></div>
+
+<h3>📅<?php the_time('F jS, Y');?> </h3>
 
 <div class="main_post">
 

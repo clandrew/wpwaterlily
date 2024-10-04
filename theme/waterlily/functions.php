@@ -55,17 +55,6 @@ function addTopBannerSettingsSection($wp_customize, $x, $default_title, $default
 ));
 }
 
-add_action( 'customize_register', 'mytheme_customize_register' );
-function mytheme_customize_register( $wp_customize )
-{
-	addTopBannerSettingsSection($wp_customize, 1, 'PC Games', '/content/tag/pc-games/', 'header_button1.png');
-	addTopBannerSettingsSection($wp_customize, 2, 'Windows', '/content/tag/windows/', 'header_button2.png');
-	addTopBannerSettingsSection($wp_customize, 3, 'Console Games', '/content/tag/console-games/', 'header_button3.png');
-	addTopBannerSettingsSection($wp_customize, 4, 'Handheld Games', '/content/tag/handheld-games/', 'header_button4.png');
-	addTopBannerSettingsSection($wp_customize, 5, 'Models', '/content/tag/model/', 'header_button5.png');
-	addTopBannerSettingsSection($wp_customize, 6, 'Retro', '/content/tag/retro/', 'header_button6.png');
-}
-
 // Since we don't plan on using any emojis. Provides a bit of a speed boost.
 remove_action('wp_head', 'print_emoji_detection_script', 7);
 remove_action('wp_print_styles', 'print_emoji_styles');

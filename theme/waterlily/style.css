@@ -214,9 +214,8 @@ code, pre {
 }
 
 .main_title {
- background: url(images/title.png) no-repeat;
  height: 47px;
- padding: 6px 0 0 40px;
+ padding: 6px 0 0 0px;
  text-align: left;
  font-size: 26px;
  font-weight: bold; 

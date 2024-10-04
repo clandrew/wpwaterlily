@@ -5,7 +5,7 @@
 <h4>Currently browsing posts found in <?php single_month_title(); ?></h4><br />
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	
-<div class="archive_title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></div>
+<div class="archive_title"><a href="<?php the_permalink() ?>" rel="bookmark">📌<?php the_title(); ?></a></div>
 
 <h3>📅<?php the_time('F jS, Y');?> </h3>
 
